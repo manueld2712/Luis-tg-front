@@ -15,7 +15,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 export function jwtOptionsFactory(storage) {
   return {
     tokenGetter: () => storage.get('access_token'),
-    allowedDomains: ['localhost:3000', 'luis-tasks-api.herokuapp.com']
+    allowedDomains: ['localhost:3000', 'luis-tg-api.herokuapp.com']
   }
 }
 
